@@ -35,19 +35,22 @@ function Base() {
                 <div class="container">
                     <div class="row text-center my-4">
                         <div class="col-md">
-
-                            <a onClick={() => router.replace("./components/NewCourse")} class="card px-3 py-5 my-2 bg-primary text-white" >
-                                <h3>Add Course</h3>
-                            </a>
+                            <Link href='/components/NewCourse' >
+                                <a class="card px-3 py-5 my-2 bg-primary text-white" >
+                                    <h3>Add Course</h3>
+                                </a>
+                            </Link>
 
 
                         </div>
                         <div class="col-md">
 
-                            <a onClick={() => router.replace('./components/New_Batch')} class="card px-3 py-5 my-2 bg-success text-white" >
-                                <h3>Add Batch</h3>
-                            </a>
 
+                            <Link href='/components/New_Batch' >
+                                <a class="card px-3 py-5 my-2 bg-primary text-white" >
+                                    <h3>Add Batch</h3>
+                                </a>
+                            </Link>
 
                         </div>
                         <div class="col-md">
