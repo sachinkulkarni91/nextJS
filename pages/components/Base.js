@@ -61,9 +61,7 @@ function Base() {
                     </div>
 
                 </div>
-                <div>
-                    slnjld
-            </div>
+
 
             </body>
         </React.Fragment>
