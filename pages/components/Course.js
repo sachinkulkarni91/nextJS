@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Base from './Base';
 
 export class Course extends Component {
     constructor(props) {
@@ -32,19 +34,44 @@ export class Course extends Component {
     render() {
         return (
             <React.Fragment>
-                <div class="row my-2">
+                <Base></Base>
+                <div class="row my-2 ml-2">
                     <h1>Courses : </h1>
                 </div>
                 <div class="row">
 
-                    <a class="col col-md-4 text-dark p-0" href="">
+                    <a class="col col-md-4 text-dark p-0 ml-3" href="">
                         <div class="card m-1 p-5 bg-light">
-                            <h2></h2>
+                            <h2>Student1</h2>
                             <hr />
-                            <h6></h6>
+                            <h6>courseId</h6>
+
                         </div>
                     </a>
+                    <a class="col col-md-4 text-dark p-0 ml-3" href="">
+                        <div class="card m-1 p-5 bg-light">
+                            <h2>Student2</h2>
+                            <hr />
+                            <h6>courseId</h6>
 
+                        </div>
+                    </a>
+                    <a class="col col-md-4 text-dark p-0 ml-3" href="">
+                        <div class="card m-1 p-5 bg-light">
+                            <h2>Student2</h2>
+                            <hr />
+                            <h6>courseId</h6>
+
+                        </div>
+                    </a>
+                    <a class="col col-md-4 text-dark p-0 ml-3" href="">
+                        <div class="card m-1 p-5 bg-light">
+                            <h2>Student2</h2>
+                            <hr />
+                            <h6>courseId</h6>
+
+                        </div>
+                    </a>
                 </div>
 
             </React.Fragment>

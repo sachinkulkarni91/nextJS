@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import NewCourse from './NewCourse';
+import Course from './Course';
 import Link from 'next/link'
 import { Router, useRouter } from 'next/router'
 function Base() {
@@ -61,7 +62,7 @@ function Base() {
                     </div>
 
                 </div>
-
+                <Course></Course>
 
             </body>
         </React.Fragment>
